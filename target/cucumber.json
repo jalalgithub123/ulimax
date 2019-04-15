@@ -1,0 +1,125 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Want to validate ultimatix home page",
+        "description": "",
+        "id": "want-to-validate-ultimatix-home-page;want-to-validate-ultimatix-home-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6742789952,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user should be in ultimatix home page",
+            "match": {
+              "location": "SampleTest.the_user_should_be_in_ultimatix_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 477747833,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user should enter the details\"test1\" and \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test1\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 45
+                }
+              ],
+              "location": "SampleTest.the_user_should_enter_the_details_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47470,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The browser should be closed",
+            "match": {
+              "location": "SampleTest.the_browser_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Want to validate ultimatix home page",
+        "description": "",
+        "id": "want-to-validate-ultimatix-home-page;want-to-validate-ultimatix-home-page;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6448094669,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user should be in ultimatix home page",
+            "match": {
+              "location": "SampleTest.the_user_should_be_in_ultimatix_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 197151476,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user should enter the details\"test2\" and \"ABCDEFG\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test2\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"ABCDEFG\"",
+                  "offset": 45
+                }
+              ],
+              "location": "SampleTest.the_user_should_enter_the_details_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36351,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The browser should be closed",
+            "match": {
+              "location": "SampleTest.the_browser_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Want to validate ultimatix home page",
+    "description": "",
+    "id": "want-to-validate-ultimatix-home-page",
+    "keyword": "Feature",
+    "uri": "C:/Users/moham/eclipse-workspace/CUCUMBER/UltiTest/src/test/resources/Feature/ulti.feature",
+    "tags": []
+  }
+]
